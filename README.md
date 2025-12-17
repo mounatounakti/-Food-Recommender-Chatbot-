@@ -66,6 +66,7 @@ pip install streamlit
 ⦁ Simple and fast UI creation    
 ⦁ Built-in chat components    
 
+![image alt](https://github.com/mounatounakti/-Food-Recommender-Chatbot-/blob/3d89ac48c6de38d5650d3ca578de895122340e76/Capture%20d%E2%80%99%C3%A9cran%202025-12-17%20164722.png)
 
 **UI:**  
 ⦁ Displays previous messages  
