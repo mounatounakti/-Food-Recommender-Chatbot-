@@ -11,6 +11,7 @@ The project is divided into **two main parts**:
 1. Terminal-based chatbot (logic & API)
 2. Web UI with Streamlit
 
+---
 ## 📌 PART 1 - Terminal-Based Nutrition Chatbot
 - Instead of training a model from scratch, we use an API-based approach.
 - We use OpenRouter, a platform that provides access to multiple LLMs.
@@ -52,8 +53,15 @@ NUTRITION_KEYWORDS = [
 ### Dedfine some key parameters
 `temperature=0.3` → stable, less random answers  
 `max_tokens=500` → controlled response length  
--> This phase is used to test and validate logic before creating a UI.
+-> This phase is used to test and validate logic before creating a UI.  
 
+### 🛴 Run Part1
+
+```bash
+python part1.py
+```
+ 
+---
 ## 📌 PART 2 — Streamlit Web Interface
 Create a modern web UI for the chatbot.
 
@@ -68,7 +76,7 @@ pip install streamlit
 
 ![image alt](https://github.com/mounatounakti/-Food-Recommender-Chatbot-/blob/3d89ac48c6de38d5650d3ca578de895122340e76/Capture%20d%E2%80%99%C3%A9cran%202025-12-17%20164722.png)
 
-**UI:**  
+**Characteristics:**  
 ⦁ Displays previous messages  
 ⦁ Accepts user input  
 ⦁ Handle greetings ("hello")    
@@ -76,6 +84,11 @@ pip install streamlit
 ⦁ Non-nutrition questions    
 ⦁ Valid nutrition questions via the API    
 ⦁ Displays chatbot responses in real time  
+
+### 🛴 Run Part2
+```bash
+streamlit run part2.py
+``` 
 
 
 
