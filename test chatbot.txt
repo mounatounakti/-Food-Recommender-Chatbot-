@@ -1,0 +1,9 @@
+I am an adult woman trying to lose weight. I am physically active and want simple, affordable meal ideas for dinner.
+
+I am an adult woman trying to lose weight. I am physically active and want simple, affordable meal ideas for dinner.
+
+Can you help me write a Python program to calculate calories?
+
+
+python test.py
+streamlit run bot.py
